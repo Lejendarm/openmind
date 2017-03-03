@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>OpenMind - page d'accueil</title>
+	<link rel="stylesheet" href="css/accueil.css">
+</head>
+<body>
+	<header>
+		<div class="center">
+			<div class="logo"><span class="xs-display-none s-display-inline">Hominem unius libri timeo</span></div>
+		</div>
+	</header>
+	<div class="center">
+		<div class="main">
+			<h2>Merci d’avoir installé le OpenMind&nbsp;!</h2>
+			<h3>Comment ça marche&nbsp;?</h3>
+			<p>
+				OpenMind est un outil copié sur celui de l’équipe des Décodeurs du Monde à la différence que les recommendations sont différentes.
+				<br>
+				Au lieu de recommander les sites ayant reçu la bénédiction de LeMonde, OpenMind va vous assurer que ce que vous consultez n'est pas approuvé par LeMonde.
+				<br>
+				Il vous permet d’afficher des informations sur les sites que vous visitez en parallèle de votre navigation par deux moyens :
+			</p>
+			<ul>
+				<li>
+					Des informations détaillées qui <strong>apparaîtront en haut à droite de votre écran</strong> lorsque vous consulterez les sites (pop-up). Elles s’afficheront de la manière suivante :
+					<!-- <figure class="notifications">
+						<img style="max-width: 360px;" src="img/buzzfeed.png" alt="">
+					</figure> -->
+				</li>
+				<li>
+					Des informations à votre disposition <strong>en un clic à tout moment, via l’icône des Décodeurs en haut à droite de votre navigateur</strong> :
+					<!-- <figure class="extension">
+						<figcaption class="xs-display-none m-display-block">Fenêtre</figcaption>
+						<img style="max-width: 260px;" src="img/extension@2x-min.png" alt="">
+					</figure> -->
+				</li>
+			</ul>
+			<h3>Réglages avancés</h3>
+			<p>
+				Par défaut, le OpenMind affiche les informations détaillées pour chaque site dont nous avons connaissance, sauf les plus fiables. Mais vous pouvez vous-même paramétrer le OpenMind selon vos attentes. Pour chaque catégorie, vous pouvez choisir si vous souhaitez avoir des informations détaillées ou non.<br>
+                <br><b>Réglez ci-dessous le OpenMind selon vos préférences</b>
+			</p>
+			<form action="#">
+				<h4>Afficher l'infobulle (pop-up)</h4>
+				<div class="form-group">
+					<div class="col-half">
+						<label for="check-alert2" class="tres-peu-fiable">Probablement un site non-occidental ou qui défend des analyses peu commune</label>
+					</div>
+					<div class="col-half">
+						<input type="checkbox" id="check-alert2">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-half">
+						<label for="check-alert3" class="peu-fiable">Un site alternatif pas mainstream</label>
+					</div>
+					<div class="col-half">
+						<input type="checkbox" id="check-alert3">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-half">
+						<label for="check-alert0" class="collaboratif">Collaboratif et incroyablement plus pro que les articles de presse</label>
+					</div>
+					<div class="col-half">
+						<input type="checkbox" id="check-alert0">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-half">
+						<label for="check-alert1" class="parodique">Parodique et inutile, après faut être un peu débile pour avoir besoin d'un outil pour s'en rendre compte.</label>
+					</div>
+					<div class="col-half">
+						<input type="checkbox" id="check-alert1">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-half">
+						<label for="check-alert4" class="plutot-fiable">Une vision du monde pour les dominer toutes</label>
+					</div>
+					<div class="col-half">
+						<input type="checkbox" id="check-alert4">
+					</div>
+				</div>
+			</form>
+			<p class="font-small">
+				Vous pourrez retrouver à tout moment les informations disponibles sur une source en cliquant sur l’icône de OpenMind en haut à droite de votre navigateur
+			</p>
+			<div class="relative">
+				<p>
+					<strong>Vous consultez un site qui n’est pas dans notre base de données&nbsp;? <span class="colored">Signalez-nous directement via l’extension</span>, nous l’étudierons par la suite&nbsp;!</strong>
+				</p>
+				<!-- <figure class="verifier">
+					<img style="max-width: 360px;" src="img/verifier@2x-min.png" alt="">
+				</figure> -->
+			</div>
+		</div>
+	</div>
+    <script src="install.js"></script>
+</body>
+</html>
